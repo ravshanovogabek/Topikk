@@ -1,0 +1,46 @@
+.footer {
+  background-color: #212121;
+  color: white;
+  padding: 10px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 80px;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #00bcd4;
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social-icon {
+  color: white;
+  font-size: 2rem;
+  transition: color 0.3s;
+}
+
+.footer-social-icon:hover {
+  color: #00bcd4;
+}

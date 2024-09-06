@@ -1,0 +1,98 @@
+.faq-container {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+.faq-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.faq-items {
+  border-bottom: 1px solid #ccc;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+
+.faq-question-text {
+  font-size: 1.25rem;
+}
+
+.faq-toggle-icon {
+  font-size: 2.5rem;
+  color: #00bcd4;
+  transition: transform 0.5s;
+}
+
+.faq-toggle-icon.open {
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  padding: 10px 0;
+  transition: height 0.5s;
+}
+
+
+.contact-form-container {
+  background: linear-gradient(to right,  #077c49be, #e0f2f1);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+  display: flex; /* Use flexbox layout */
+  justify-content: space-between; /* Space out children */
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(7, 243, 101, 0.763); /* Center items vertically */
+}
+
+.contact-form-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact-description {
+  max-width: 230px;
+  font-size: 1rem;
+  margin-right: 20px; /* Add space between description and form */
+}
+
+.contact-form {
+  width: 300px; /* Adjust as needed */
+}
+
+.contact-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 9999px;
+  border: 1px solid #ccc;
+}
+
+.contact-button {
+  width: 100%;
+  padding: 10px;
+  background:  #077c49be;
+  color: white;
+  border: 1px solid  #077c49be;;
+  border-radius: 9999px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}

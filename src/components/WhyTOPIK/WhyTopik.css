@@ -1,0 +1,44 @@
+.why-topik {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.why-topik__title {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 50px;
+}
+
+.why-topik__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 4rem;
+  padding: 3rem;
+  
+}
+
+.why-topik__item {
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(7, 243, 94, 0.763);
+}
+
+.why-topik__number {
+  background-color: #077c49be;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.why-topik__subtitle {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.why-topik__description {
+  font-size: 1rem;
+}
